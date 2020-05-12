@@ -1,0 +1,21 @@
+.list {
+    max-Width: 660px;
+    width: 100%;
+    padding: 0 4px;
+}
+.aside {
+    width: 290px;
+}
+.aside-flixed{
+    position: fixed;
+    top: 41px;
+    margin-left: 670px;
+}
+@media screen and (max-width: 960px) {
+    .list{
+        margin: 0 auto;
+    }
+    .aside {
+        display: none;
+    }
+}

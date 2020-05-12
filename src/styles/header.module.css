@@ -1,0 +1,39 @@
+.site-title {
+    text-align: center;
+    height: 100px;
+    background: #ffcc33;
+    margin: 0;
+    padding: 0;
+}
+.site-title > a {
+    color: white;
+    line-height: 100px;
+}
+nav {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.12);
+}
+.nav {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    display: inline-block;
+    height: 39px;
+    padding: 10px 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav a:hover, .nav a.active{
+    color: #ffcc33;
+    border-bottom: 2px solid #ffcc33;
+}
+.is-flixed{
+    position: fixed;
+    top: 0;
+}

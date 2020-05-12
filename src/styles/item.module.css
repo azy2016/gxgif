@@ -1,0 +1,74 @@
+.item{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.title a:hover {
+    color: #e74291;
+}
+.content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content img{
+    max-width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+}
+
+.icon{
+    display: inline-block;
+    line-height: 30px;
+    background: transparent;
+    padding: 3px 0 0 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.like-icon {
+    background: url("../../static/icon/good.svg") no-repeat left center / 24px 24px;
+}
+.like-icon.is-like {
+    animation: pulse 1s;
+    -moz-animation: pulse 1s;	/* Firefox */
+    -webkit-animation: pulse 1s;	/* Safari 和 Chrome */
+    -o-animation: pulse 1s;
+    background: url("../../static/icon/good-fill.svg") no-repeat left center / 24px 24px;
+}
+.read-icon {
+    background: url("../../static/icon/read.svg") no-repeat left center / 24px 24px;
+}
+.date-icon {
+    background: url(../../static/icon/date.svg) no-repeat left center / 24px 24px;
+    margin-right: 0;
+}
+
+@keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.3, 1.3, 1.3);
+      transform: scale3d(1.3, 1.3, 1.3);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+}

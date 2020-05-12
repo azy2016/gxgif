@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e74291;
+    border-radius: 5px;
+}
+
+.left{
+    background: #fff url(../../static/icon/arrow-left-fil.svg) no-repeat center center / 12px 12px;
+}
+.left:hover{
+    background: #e74291 url(../../static/icon/arrow-left-white.svg) no-repeat center center / 12px 12px;
+}
+
+.right{
+    background: #fff url(../../static/icon/arrow-right-fil.svg) no-repeat center center / 12px 12px;
+}
+.right:hover{
+    background: #e74291 url(../../static/icon/arrow-right-white.svg) no-repeat center center / 12px 12px;
+}
