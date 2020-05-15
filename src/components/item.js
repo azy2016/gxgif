@@ -1,5 +1,4 @@
 import React from "react"
-import axios from "axios";
 import Style from "../styles/item.module.css"
 
 class Item extends React.Component {
